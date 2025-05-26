@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Studio Natalii Santé</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{font-family:'Georgia',serif;margin:0;background:#fff;color:#333}
+    header{background:#f8f8f8;text-align:center;padding:40px 20px;border-bottom:1px solid #ccc}
+    header h1{margin:0;font-size:36px;letter-spacing:2px}
+    nav{text-align:center;background:#fff;padding:10px 0;border-bottom:1px solid #ccc}
+    nav a{margin:0 15px;text-decoration:none;color:#333;font-weight:bold}
+    nav a:hover{color:#7c5e99}
+    section{max-width:1000px;margin:40px auto;padding:0 20px}
+    h2{border-bottom:2px solid #7c5e99;padding-bottom:5px;margin-bottom:20px}
+    footer{background:#f8f8f8;text-align:center;padding:20px;font-size:14px;border-top:1px solid #ccc}
+    .contact-form input,.contact-form textarea{width:100%;padding:10px;margin-bottom:15px;border:1px solid #ccc;border-radius:4px;font-family:inherit}
+    .contact-form button{padding:10px 20px;background:#7c5e99;color:#fff;border:none;border-radius:4px;cursor:pointer}
+    .contact-form button:hover{background:#6a4e85}
+    .drive-embed{width:100%;height:650px;border:0}
+  </style>
+</head>
+<body>
+  <header><h1>Studio Natalii Santé</h1></header>
+
+  <nav>
+    <a href="#about">O&nbsp;mnie</a>
+    <a href="#gallery">Galeria</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+
+  <section id="about">
+    <h2>O&nbsp;mnie</h2>
+    <p>
+      Cześć! Nazywam się&nbsp;Natalia i jestem fotografką z pasją do uchwytywania
+      piękna codzienności. Specjalizuję się w fotografii portretowej,
+      reportażowej i artystycznej. Cenię estetykę, światło i autentyczność.
+      Każda sesja to wyjątkowa historia – chętnie opowiem Twoją.
+    </p>
+  </section>
+
+  <section id="gallery">
+    <h2>Galeria zdjęć</h2>
+    <iframe
+      class="drive-embed"
+      src="https://drive.google.com/embeddedfolderview?id=1vm9S_yeAL9e3KXj9hbJyhtAoducT8a2z#grid">
+    </iframe>
+  </section>
+
+  <section id="contact">
+    <h2>Kontakt</h2>
+    <p>Masz pytania lub chcesz umówić sesję? Napisz do mnie:</p>
+    <form class="contact-form">
+      <input type="text" placeholder="Imię i nazwisko" required>
+      <input type="email" placeholder="Adres e-mail" required>
+      <textarea rows="5" placeholder="Wiadomość…" required></textarea>
+      <button type="submit">Wyślij</button>
+    </form>
+  </section>
+
+  <footer>&copy;&nbsp;2025&nbsp;Natalia&nbsp;Santé. Wszelkie prawa zastrzeżone.</footer>
+</body>
+</html>
